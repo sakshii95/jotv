@@ -1,0 +1,313 @@
+.homepage{
+margin: auto;
+display: table;
+max-width: 1200px;
+overflow: hidden;
+
+}
+.nav {
+ 
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button.toggle-btn {
+    background-color: black;
+    float: right;
+}
+
+.logo img {
+    height: 50px;
+    width: 100%;
+}
+
+.navbar-btn {
+   width: 65%;
+}
+
+nav {
+    display: block;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+}
+nav a {
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+}
+.toggle-btn {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: none;
+    margin-right: 15px;
+}
+
+#sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+#sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+#sidebar a:hover {
+    color: #818181;
+}
+
+#sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left 0.5s;
+    padding: 16px;
+}
+
+
+
+
+
+.resume-template h2 a {
+    font-weight: 600;
+    color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-decoration:none;
+}
+.resume-template h3 {
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 1.5;
+}
+button#template-btn {
+    border-radius: 19px;
+    font-size: 16px;
+    padding: 10px 24px;
+    border: none;
+    color: white;
+    background-color: blue;
+}
+.resume-template-image img {
+    width: 70%;
+}
+.video-profile-box img {
+    width: 100%;
+}
+.details-templates img {
+    width: 100%;
+}
+
+.container-fluid.access {
+    background-color: #e4f0f5;
+    padding: 30px;
+    box-shadow: 22px 3px 48px white inset;
+}
+.container-fluid.login {
+    background-color: #fbfafa;
+}
+.login-template h2 a {
+    font-weight: 600;
+    color: black;
+    font-size: 25px;
+}
+.login-template h3 {
+    color: grey;
+    font-size: 17px;
+}
+.rating {
+    display: flex;
+    align-items: center;
+}
+.login-create h2 a {
+    font-weight: 600;
+    font-size: 19px;
+    color: black;
+}
+.login-create h3 {
+    color: grey;
+    font-size: 17px;
+    margin-top: 5px;
+}
+.text-get h2 {
+    font-weight: 600;
+    font-size: 22px;
+}
+button#start-btn{
+    border-radius: 19px;
+    font-size: 16px;
+    padding: 10px 24px;
+    border: none;
+    color: white;
+    background-color: blue;
+    margin-top: 19px;
+}
+.text-get p {
+    color: gray;
+    font-size: 15px;
+    margin-top: 16px;
+
+}
+.container-fluid.portfolio {
+    margin-top: 50px;
+}
+.video-profile-box h2 a {
+    font-size: 21px;
+    color: #0a0707;
+    font-weight: 600;
+}
+.video-profile-box h3 {
+    margin-top: 6px;
+    color: grey;
+    font-size: 17px;
+}
+.details-templates h2 {
+    font-weight: 600;
+    font-size: 24px;
+}
+.accesss-resume h3 a {
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 9px;
+
+}
+
+.container-fluid.templateresumes {
+    margin-top: 70px;
+    padding: 10px;
+}
+i.fa-solid.fa-check {
+    font-size: 14px;
+    border-radius: 20px;
+    color: white;
+    padding: 6px;
+    background-color: blue;
+}
+.company-resume h3 {
+    font-size: 20px;
+    margin-left: 34px;
+    font-weight: 600;
+}
+.container-fluid.footer {
+    margin-top: 21px;
+    color: white;
+    background-color: blue;
+}
+ul.list-resume li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+ul.list-resume li {
+    margin-top: 6px;
+    list-style-type: none;
+}
+.container-fluid.resume-builder {
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding: 14px;
+    display: flex;
+}
+i.fa-solid.fa-star {
+    color: #e9e922;
+}
+.rating-list {
+    margin: 12px;
+}
+.login {
+    align-items: center;
+    display: flex;
+}
+svg {
+    padding: 3px;
+    background-color: white;
+}
+.login-create {
+    margin-left: 12px;
+}
+.play-store img {
+    width: 30%;
+}
+i.fa-brands.fa-facebook {
+    padding: 7px;
+    font-size: 21px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+i.fa-brands.fa-instagram{
+    padding: 7px;
+    font-size: 21px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 5px; 
+}
+i.fa-brands.fa-twitter{
+    margin-left: 5px; 
+    padding: 7px;
+    font-size: 21px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.play-store {
+    margin-bottom: 20px;
+}
+.section-logo img {
+    color: white;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px) {
+    .container-fluid.resume-builder {
+      
+        display: initial;
+    }
+    .navbar-btn {
+        width: 100%;
+    }
+
+    nav a {
+        padding: 15px 0;
+        display: block;
+        
+    }
+}
