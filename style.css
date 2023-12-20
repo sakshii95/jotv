@@ -5,6 +5,7 @@ max-width: 1200px;
 overflow: hidden;
 
 }
+
 .nav {
  
     padding: 15px;
@@ -12,47 +13,40 @@ overflow: hidden;
     justify-content: space-between;
     align-items: center;
 }
-button.toggle-btn {
+/* button.toggle-btn {
     background-color: black;
     float: right;
-}
+} */
 
-.logo img {
-    height: 50px;
-    width: 100%;
-}
-
-.navbar-btn {
+/* .navbar-btn {
    width: 65%;
-}
+} */
 
-nav {
+/* nav {
     display: block;
-}
+} */
 
 nav a:hover {
-    background-color: black;
-    color: white;
-    padding: 7px;
-    text-decoration: none;
+    color: black;
+    
 }
 nav a {
     font-weight: 600;
-    color: black;
+    color:grey;
     text-decoration: none;
     margin: 0 15px;
     font-size: 17px;
 }
-.toggle-btn {
+/* .toggle-btn {
     font-size: 20px;
     cursor: pointer;
     color: white;
     background: none;
     border: none;
     margin-right: 15px;
-}
+} */
 
-#sidebar {
+/* #sidebar {
     height: 100%;
     width: 0;
     position: fixed;
@@ -76,9 +70,9 @@ nav a {
 
 #sidebar a:hover {
     color: #818181;
-}
+} */
 
-#sidebar .closebtn {
+/* #sidebar .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -89,19 +83,20 @@ nav a {
 #main {
     transition: margin-left 0.5s;
     padding: 16px;
-}
-
+} */
 
 
 
 
 .resume-template h2 a {
+    line-height: 1.3;
     font-weight: 600;
     color: black;
     font-size: 30px;
     font-family: sans-serif;
-    text-decoration:none;
+    text-decoration: none;
 }
+
 .resume-template h3 {
     font-family: sans-serif;
     font-size: 19px;
@@ -114,6 +109,7 @@ button#template-btn {
     border: none;
     color: white;
     background-color: blue;
+    margin-top: 19px;
 }
 .resume-template-image img {
     width: 70%;
@@ -124,11 +120,25 @@ button#template-btn {
 .details-templates img {
     width: 100%;
 }
-
+.resume-template img {
+    margin-bottom: 10px;
+    width: 65%;
+    margin-top: 17px;
+}
 .container-fluid.access {
-    background-color: #e4f0f5;
-    padding: 30px;
-    box-shadow: 22px 3px 48px white inset;
+    padding: 45px;
+}
+.accesss-resume h3 a {
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 9px;
+    text-decoration: none;
+
+}
+.logo img {
+    width:100%;
+    margin-left: -100px;
 }
 .container-fluid.login {
     background-color: #fbfafa;
@@ -136,7 +146,7 @@ button#template-btn {
 .login-template h2 a {
     font-weight: 600;
     color: black;
-    font-size: 25px;
+    font-size: 31px;
 }
 .login-template h3 {
     color: grey;
@@ -145,7 +155,13 @@ button#template-btn {
 .rating {
     display: flex;
     align-items: center;
+    margin-top: 45px;
 }
+.rating-list2 {
+    margin-left: 35px;
+}
+
+
 .login-create h2 a {
     font-weight: 600;
     font-size: 19px;
@@ -158,16 +174,19 @@ button#template-btn {
 }
 .text-get h2 {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 32px;
 }
-button#start-btn{
-    border-radius: 19px;
-    font-size: 16px;
-    padding: 10px 24px;
+
+
+button#start-btn {
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 13px 39px;
     border: none;
     color: white;
     background-color: blue;
     margin-top: 19px;
+    margin-left: 196px;
 }
 .text-get p {
     color: gray;
@@ -182,6 +201,7 @@ button#start-btn{
     font-size: 21px;
     color: #0a0707;
     font-weight: 600;
+    text-decoration: none;
 }
 .video-profile-box h3 {
     margin-top: 6px;
@@ -190,15 +210,9 @@ button#start-btn{
 }
 .details-templates h2 {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 42px;
 }
-.accesss-resume h3 a {
-    font-size: 15px;
-    color: black;
-    font-family: sans-serif;
-    margin-left: 9px;
 
-}
 
 .container-fluid.templateresumes {
     margin-top: 70px;
@@ -219,7 +233,11 @@ i.fa-solid.fa-check {
 .container-fluid.footer {
     margin-top: 21px;
     color: white;
-    background-color: blue;
+    background-color: #1b54f5;
+    padding:40px;
+}
+.company-resume {
+    margin-top: 30px;
 }
 ul.list-resume li a {
     font-size: 14px;
@@ -231,17 +249,14 @@ ul.list-resume li {
     list-style-type: none;
 }
 .container-fluid.resume-builder {
-    justify-content: space-evenly;
     margin-top: 50px;
     padding: 14px;
-    display: flex;
 }
 i.fa-solid.fa-star {
     color: #e9e922;
 }
-.rating-list {
-    margin: 12px;
-}
+
+
 .login {
     align-items: center;
     display: flex;
@@ -280,8 +295,13 @@ i.fa-brands.fa-twitter{
     margin-bottom: 20px;
 }
 .section-logo img {
-    color: white;
-    width: 50%;
+    width: 42%;
+    margin-top: 10px;
+    margin-bottom: 19px;
+}
+.section-nav-box{
+    box-shadow: 22px 3px 48px white inset;
+    background-color: #e4f0f5;
 }
 
 
@@ -295,12 +315,8 @@ i.fa-brands.fa-twitter{
 
 
 
-
 @media(max-width:600px) {
-    .container-fluid.resume-builder {
-      
-        display: initial;
-    }
+    
     .navbar-btn {
         width: 100%;
     }
@@ -310,4 +326,14 @@ i.fa-brands.fa-twitter{
         display: block;
         
     }
+    button#start-btn {
+        margin-left: 0px;
+    }
+    .rating-list2 {
+        margin-left: 0px;
+    }
+    .logo img {
+        margin-left: 0px;
+    }
+    
 }
