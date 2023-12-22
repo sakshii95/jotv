@@ -1,0 +1,369 @@
+.homepage{
+    margin: auto;
+    display: table;
+    max-width: 1200px;
+    overflow: hidden;
+    
+    }
+    .container-fluid.access {
+        padding-top: 51px;
+        color: white;
+        background-color: #0353f0;
+        padding-left: 36px;
+    }
+    .text-students h3 {
+        font-size: 17px;
+    }
+    
+    .login-template h2 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    
+    .logo {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+    /* button.toggle-btn {
+        background-color: black;
+        float: right;
+    } */
+    
+    /* .navbar-btn {
+       width: 65%;
+    } */
+    
+    /* nav {
+        display: block;
+    } */
+    
+    nav a:hover {
+        color: black;
+        text-decoration: none;   
+    }
+    
+    div#main {
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    button.btn-login {
+        margin-left: 25px;
+        border: none;
+        border-radius: 12px;                                            
+        padding: 5px 16px;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        background-color: blue;
+    }
+    
+    
+    nav a {
+        margin-left: 8px;
+        font-weight: 600;
+        color: grey;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    /* .toggle-btn {
+        font-size: 20px;
+        cursor: pointer;
+        color: white;
+        background: none;
+        border: none;
+        margin-right: 15px;
+    } */
+    
+    /* #sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    #sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    #sidebar a:hover {
+        color: #818181;
+    } */
+    
+    /* #sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    
+    #main {
+        transition: margin-left 0.5s;
+        padding: 16px;
+    } */
+    .resume-template-image img {
+        width: 50%;
+    }
+    button#template-btn {
+        border-radius: 12px;
+        font-size: 16px;
+        padding: 10px 24px;
+        border: none;
+        color: blue;
+        background-color: white;
+        margin-top: 19px;
+    }
+    .user-plateform h3 {
+        border-radius: 10px;
+        padding: 3px 23px;
+        border: 1px solid #3b93f6;
+        width: 30%;
+        margin-left: 10px;
+    }
+    
+   
+    .user-plateform h3 a {
+        color: #3c3b3b;
+        font-size: 15px;
+        text-decoration: none;
+    }
+      
+    .user-plateform {
+        display: flex;
+    }
+    .text-students h2 {
+        font-size: 33px;
+        font-weight: 600;
+    }
+    .resume-template h2 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .resume-template-image img {
+        width: 50%;
+    }
+    .video-profile-box img {
+        width: 100%;
+    }
+    .details-templates img {
+        width: 100%;
+    }
+    .resume-template img {
+        margin-bottom: 10px;
+        width: 65%;
+        margin-top: 17px;
+    }
+   
+   
+   
+    .container-fluid.login {
+        margin-top: 60px;
+    }    
+    .login-template h2 a {
+        font-weight: 600;
+        color: black;
+        font-size: 31px;
+    }
+    .login-template h3 {
+        color: grey;
+        font-size: 17px;
+    }
+    .rating {
+        display: flex;
+        align-items: center;
+        margin-top: 45px;
+    }
+    .rating-list2 {
+        margin-left: 35px;
+    }
+    
+    
+    .login-create h2 a {
+        font-weight: 600;
+        font-size: 19px;
+        color: black;
+    }
+    .login-create h3 {
+        color: grey;
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    .text-get h2 {
+        font-weight: 600;
+        font-size: 32px;
+    }
+    
+    
+    button#start-btn {
+        border-radius: 30px;
+        font-size: 18px;
+        padding: 13px 39px;
+        border: none;
+        color: white;
+        background-color: blue;
+        margin-top: 19px;
+        margin-left: 196px;
+    }
+    .text-get p {
+        color: gray;
+        font-size: 15px;
+        margin-top: 16px;
+    
+    }
+    .container-fluid.portfolio {
+        margin-top: 50px;
+    }
+    .video-profile-box h2 a {
+        font-size: 21px;
+        color: #0a0707;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .video-profile-box h3 {
+        margin-top: 6px;
+        color: grey;
+        font-size: 17px;
+    }
+    
+    
+    
+ 
+    i.fa-solid.fa-check {
+        font-size: 14px;
+        border-radius: 20px;
+        color: white;
+        padding: 6px;
+        background-color: blue;
+    }
+    .company-resume h3 {
+        font-size: 20px;
+        margin-left: 34px;
+        font-weight: 600;
+    }
+    .big-section {
+        margin-top: 21px;
+        color: white;
+        background-color: #0353f0;
+        padding:40px;
+    }
+
+    .company-resume {
+        margin-top: 30px;
+    }
+    ul.list-resume li a {
+        font-size: 14px;
+        text-decoration: none;
+        color: white;
+    }
+    ul.list-resume li {
+        margin-top: 6px;
+        list-style-type: none;
+    }
+    .container-fluid.resume-builder {
+        margin-top: 50px;
+        padding: 14px;
+    }
+    i.fa-solid.fa-star {
+        color: #e9e922;
+    }
+    
+    
+   
+    svg {
+        padding: 3px;
+        background-color: white;
+    }
+    .login-create {
+        margin-left: 12px;
+    }
+    .play-store img {
+        width: 30%;
+    }
+    i.fa-brands.fa-facebook {
+        padding: 7px;
+        font-size: 21px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+    i.fa-brands.fa-instagram{
+        padding: 7px;
+        font-size: 21px;
+        border: 1px solid white;
+        border-radius: 50%;
+        margin-left: 5px; 
+    }
+    i.fa-brands.fa-twitter{
+        margin-left: 5px; 
+        padding: 7px;
+        font-size: 21px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+    .play-store {
+        margin-bottom: 20px;
+    }
+    .section-logo img {
+        width: 42%;
+        margin-top: 10px;
+        margin-bottom: 19px;
+    }
+   
+  
+.text-students {
+    text-align: center;
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media(max-width:600px) {
+        
+        .navbar-btn {
+            width: 100%;
+        }
+    
+        .resume-template-image img {
+            width: 100%;
+            margin-top: 25px;
+        }
+        
+        .details-templates img {
+            margin-top: 30px;
+        } 
+        .section-logo img {
+            width: 60%;
+        }
+        .play-store img {
+            margin-bottom: 10px;
+            width: 49%;
+        }
+       
+        button.btn-login {
+            margin-left: 0px;
+         
+        }
+        .logo {
+            display: initial;
+
+        }
+        
+    }
