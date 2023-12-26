@@ -198,9 +198,7 @@ i.fa-solid.fa-check {
     background-color: #1b54f5;
     padding:25px;
 }
-.company-resume {
-    margin-top: 30px;
-}
+
 ul.list-resume li a {
     font-size: 14px;
     text-decoration: none;
@@ -272,7 +270,10 @@ i.fa-brands.fa-twitter{
     box-shadow: 22px 3px 48px white inset;
     background-color: #e4f0f5;
 }
-
+.company-resume {
+    margin-top: 30px;
+    margin-left: -35px;
+}
 
 
 
