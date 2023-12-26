@@ -428,7 +428,9 @@
             margin-top: 20px;
         }
     
-    
+        .login-template img {
+            width: 100%;
+        }
     
     
     
