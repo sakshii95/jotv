@@ -30,7 +30,7 @@ div#main {
 }
 
 button.btn-login {
-    margin-left: 15px;
+    margin-left: 7px;
     border: none;
     border-radius: 12px;
     padding: 5px 16px;
@@ -42,7 +42,7 @@ button.btn-login {
 
 
 nav a {
-    margin-left: 4px;
+    margin-left: 7px;
     font-weight: 600;
     color: grey;
     text-decoration: none;
@@ -55,11 +55,13 @@ nav a {
     line-height: 1.3;
     font-weight: 600;
     color: black;
-    font-size: 30px;
+    font-size: 55px;
     font-family: sans-serif;
     text-decoration: none;
 }
-
+.resume-template{
+    margin-left: 18px;
+}
 .resume-template h3 {
     font-family: sans-serif;
     font-size: 19px;
@@ -89,7 +91,7 @@ button#template-btn {
     margin-top: 17px;
 }
 .container-fluid.access {
-    padding: 45px;
+    padding: 15px;
 }
 .accesss-resume h3 a {
     font-size: 15px;
@@ -194,7 +196,7 @@ i.fa-solid.fa-check {
     margin-top: 21px;
     color: white;
     background-color: #1b54f5;
-    padding:40px;
+    padding:25px;
 }
 .company-resume {
     margin-top: 30px;
@@ -220,6 +222,7 @@ i.fa-solid.fa-star {
 .login {
     align-items: center;
     display: flex;
+    justify-content: space-evenly;
 }
 svg {
     padding: 3px;
@@ -236,6 +239,8 @@ i.fa-brands.fa-facebook {
     font-size: 21px;
     border: 1px solid white;
     border-radius: 50%;
+    color: white;
+
 }
 i.fa-brands.fa-instagram{
     padding: 7px;
@@ -243,6 +248,8 @@ i.fa-brands.fa-instagram{
     border: 1px solid white;
     border-radius: 50%;
     margin-left: 5px; 
+    color: white;
+
 }
 i.fa-brands.fa-twitter{
     margin-left: 5px; 
@@ -250,6 +257,8 @@ i.fa-brands.fa-twitter{
     font-size: 21px;
     border: 1px solid white;
     border-radius: 50%;
+    color: white;
+
 }
 .play-store {
     margin-bottom: 20px;
@@ -263,11 +272,6 @@ i.fa-brands.fa-twitter{
     box-shadow: 22px 3px 48px white inset;
     background-color: #e4f0f5;
 }
-
-
-
-
-
 
 
 
@@ -296,7 +300,9 @@ i.fa-brands.fa-twitter{
     .details-templates img {
         margin-top: 30px;
     } 
-    
+    .resume-template{
+        margin-left: 0px;
+    }
   
     
     .logo img {
@@ -306,10 +312,14 @@ i.fa-brands.fa-twitter{
     .logo {
         display: initial;       
     }
-    nav a {
-        font-size: 15px;
+   
+    .resume-template h2 a {
+        font-size: 35px;  
     }
-    .container-fluid.footer {
-        padding: 10px;
+    .details-templates h2 {
+        font-size: 36px;
+    }
+    button.btn-login {
+        margin-top: 10px;
     }
 }

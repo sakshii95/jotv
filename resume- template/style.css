@@ -83,8 +83,6 @@
         margin-left: 8px;
     }
    
-   
-     
     .user-plateform h3 a {
         color: #3c3b3b;
         font-size: 15px;
@@ -102,10 +100,9 @@
         height: 64px;
         width: 32%;
         border-radius: 12px;
-        margin-left: 16px;
         border: 1px solid #9898fb;
         display: flex;
-        padding: 2px 29px;
+        padding: 2px 18px;
         align-items: center;
         margin: 9px;
         background-color: white
@@ -217,9 +214,6 @@
         color: grey;
         font-size: 17px;
     }
-    
-    
-    
  
     i.fa-solid.fa-check {
         font-size: 14px;
@@ -277,6 +271,7 @@
         font-size: 21px;
         border: 1px solid white;
         border-radius: 50%;
+        color: white;
     }
     i.fa-brands.fa-instagram{
         padding: 7px;
@@ -284,6 +279,8 @@
         border: 1px solid white;
         border-radius: 50%;
         margin-left: 5px; 
+        color: white;
+
     }
     i.fa-brands.fa-twitter{
         margin-left: 5px; 
@@ -291,6 +288,8 @@
         font-size: 21px;
         border: 1px solid white;
         border-radius: 50%;
+        color: white;
+
     }
     .play-store {
         margin-bottom: 20px;
@@ -428,6 +427,18 @@
         }
         button.btn-login {
             margin-top: 10px;
+        }
+        .user1 {
+            height: 64px;
+            width: 50%;
+            margin-top: 12px;
+            padding: 7px 11px;
+        }
+        .user1 img {
+           max-width:  100%;
+        }
+        .user-plateform h3 a {
+            font-size: 10px;
         }
        
     }
