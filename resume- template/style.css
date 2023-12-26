@@ -360,7 +360,9 @@
 }
     
     @media(max-width:600px) {
-       
+        .user-plateform {
+            display: initial;
+        }
         .logo img {
             width: 40%;
         }
