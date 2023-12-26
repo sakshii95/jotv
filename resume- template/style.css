@@ -10,33 +10,25 @@
         color: white;
         background-color: #0353f0;
         padding-left: 36px;
+        margin-top: 36px;
     }
+
     .text-students h3 {
+        margin-bottom: -18px;
         font-size: 17px;
+        margin-top: 13px;
     }
-    
-    .login-template h2 {
-        font-size: 28px;
-        font-weight: 600;
-    }
-    
     .logo {
         justify-content: space-between;
         display: flex;
         align-items: center;
     }
-    /* button.toggle-btn {
-        background-color: black;
-        float: right;
-    } */
-    
-    /* .navbar-btn {
-       width: 65%;
-    } */
-    
-    /* nav {
-        display: block;
-    } */
+    .logo img {
+        width: 60%;
+    }
+    .nav {
+        margin-top: 24px;
+    }
     
     nav a:hover {
         color: black;
@@ -68,82 +60,49 @@
         text-decoration: none;
         font-size: 17px;
     }
-    /* .toggle-btn {
-        font-size: 20px;
-        cursor: pointer;
-        color: white;
-        background: none;
-        border: none;
-        margin-right: 15px;
-    } */
-    
-    /* #sidebar {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-    }
-    
-    #sidebar a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 18px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-    }
-    
-    #sidebar a:hover {
-        color: #818181;
-    } */
-    
-    /* #sidebar .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
-    
-    #main {
-        transition: margin-left 0.5s;
-        padding: 16px;
-    } */
+   
     .resume-template-image img {
         width: 50%;
     }
     button#template-btn {
         border-radius: 12px;
         font-size: 16px;
-        padding: 10px 24px;
+        padding: 10px 35px;
         border: none;
         color: blue;
         background-color: white;
         margin-top: 19px;
     }
     .user-plateform h3 {
-        border-radius: 10px;
-        padding: 3px 23px;
-        border: 1px solid #3b93f6;
-        width: 30%;
-        margin-left: 10px;
+        margin-left: 8px;
     }
-    
    
+    .user1 {
+        height: 66px;
+        width: 38%;
+        border-radius: 12px;
+        margin-left: 16px;
+        border: 1px solid #9898fb;
+        display: flex;
+        padding: 2px 36px;
+        align-items: center;
+        margin: 9px;
+    }
+     
     .user-plateform h3 a {
         color: #3c3b3b;
         font-size: 15px;
         text-decoration: none;
     }
-      
+    
     .user-plateform {
         display: flex;
+        align-items: center;      
+    }
+    .user1 img {
+        margin-left: -22px;
+        height: 40px;
+        width: 36%;
     }
     .text-students h2 {
         font-size: 33px;
@@ -156,8 +115,12 @@
     .resume-template-image img {
         width: 50%;
     }
+    .video-profile1-box img {
+        width: 100%;
+    }
     .video-profile-box img {
         width: 100%;
+        margin-left: 58px;
     }
     .details-templates img {
         width: 100%;
@@ -178,10 +141,20 @@
         color: black;
         font-size: 31px;
     }
-    .login-template h3 {
-        color: grey;
-        font-size: 17px;
+    .login-template h2 {
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 70px;
     }
+  
+    .login-template h3 {
+        word-spacing: 4px;
+        color: #4c4b4b;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    
+    
     .rating {
         display: flex;
         align-items: center;
@@ -258,7 +231,7 @@
         margin-top: 21px;
         color: white;
         background-color: #0353f0;
-        padding:40px;
+        padding:20px;
     }
 
     .company-resume {
@@ -291,7 +264,7 @@
         margin-left: 12px;
     }
     .play-store img {
-        width: 30%;
+        width: 36%;
     }
     i.fa-brands.fa-facebook {
         padding: 7px;
@@ -328,15 +301,69 @@
 }  
     
     
+
+
+.container-app {
+    background-color: blue;
+    color: white;
+}
+.intern-footer {
+    display: flex;
+}
+.container-discover {
+    text-align: center;
+    margin-top: 100px;
+}   
     
-    
-    
-    
-    
-    
+.container-discover h2 {
+    color: black;
+    font-weight: 600;
+    font-size: 31px;
+}  
+.container-discover h3 {
+    font-size: 15px;
+    color: black;
+}
+.container-fluid.footer {
+    margin-top: 35px;
+}  
+.frame-page {
+    background-color: white;
+    color: black;
+    border-radius: 11px;
+} 
+.frame-page {
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 11px;
+    display: flex;
+} 
+.frame-page {
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-around;
+    padding: 11px;
+    margin-top: -24px;
+}
+.developer-box h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.developer-box h4 {
+    color: #444343;
+    font-weight: 500;
+    font-size: 18px;
+}
     
     @media(max-width:600px) {
-        
+        .logo img {
+            margin-left: 0px;
+            width: 40%;
+        }
         .navbar-btn {
             width: 100%;
         }
@@ -350,7 +377,7 @@
             margin-top: 30px;
         } 
         .section-logo img {
-            width: 60%;
+            width: 50%;
         }
         .play-store img {
             margin-bottom: 10px;
@@ -365,5 +392,18 @@
             display: initial;
 
         }
-        
+        .video-profile-box img {
+            margin-left: 0px;
+        }
+        .big-section {
+            padding:0px;
+        }
+        .user1 {
+            width: 50%;
+          
+        }
+        .frame-page {    
+            margin-top: 20px;
+        }
+       
     }

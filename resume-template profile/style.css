@@ -6,38 +6,33 @@ overflow: hidden;
 
 }
 
-.nav {
-    padding: 15px;
-    display: flex;
+.logo {
     justify-content: space-between;
+    display: flex;
     align-items: center;
 }
-/* button.toggle-btn {
-    background-color: black;
-    float: right;
-} */
-
-/* .navbar-btn {
-   width: 65%;
-} */
-
-/* nav {
-    display: block;
-} */
+.logo img {
+    width: 60%;
+}
+.nav {
+    margin-top: 24px;
+}
 
 nav a:hover {
     color: black;
     text-decoration: none;   
 }
+
 div#main {
     align-items: center;
     display: flex;
+    justify-content: space-evenly;
 }
 
 button.btn-login {
     margin-left: 25px;
     border: none;
-    border-radius: 12px;                                            px;
+    border-radius: 12px;
     padding: 5px 16px;
     font-size: 16px;
     font-weight: 600;
@@ -53,54 +48,6 @@ nav a {
     text-decoration: none;
     font-size: 17px;
 }
-/* .toggle-btn {
-    font-size: 20px;
-    cursor: pointer;
-    color: white;
-    background: none;
-    border: none;
-    margin-right: 15px;
-} */
-
-/* #sidebar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-#sidebar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    display: block;
-    transition: 0.3s;
-}
-
-#sidebar a:hover {
-    color: #818181;
-} */
-
-/* #sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-#main {
-    transition: margin-left 0.5s;
-    padding: 16px;
-} */
-
 
 
 
@@ -152,10 +99,7 @@ button#template-btn {
     text-decoration: none;
 
 }
-.logo img {
-    width:70%%;
-    margin-left: -100px;
-}
+
 .container-fluid.login {
     background-color: #fbfafa;
 }
@@ -332,7 +276,9 @@ i.fa-brands.fa-twitter{
 
 
 @media(max-width:600px) {
-    
+    nav a {
+        margin-left: 0px;
+    }
     .navbar-btn {
         width: 100%;
     }
@@ -340,12 +286,7 @@ i.fa-brands.fa-twitter{
     button#start-btn {
         margin-left: 0px;
     }
-    /* .rating-list2 {
-        margin-left: 0px;
-    } */
-    .logo img {
-        margin-left: 0px;
-    }
+   
     .nav {
         display: initial;
         
@@ -365,12 +306,18 @@ i.fa-brands.fa-twitter{
         margin-bottom: 10px;
         width: 70%;
     }
-    div#main {
-        display: initial;
-    }
+   
     button.btn-login {
         margin-left: 0px;
      
+    }
+    .logo img {
+        margin-left: 0px;
+        width: 40%;
+    }
+    .logo {
+        display: initial;
+        
     }
     
 }
