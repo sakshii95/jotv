@@ -264,7 +264,7 @@
         margin-left: 12px;
     }
     .play-store img {
-        width: 36%;
+        width: 35%;
     }
     i.fa-brands.fa-facebook {
         padding: 7px;
@@ -360,9 +360,12 @@
 }
     
     @media(max-width:600px) {
+       
         .logo img {
-            margin-left: 0px;
             width: 40%;
+        }
+        .container-fluid.resume-builder {
+            padding: 0px;
         }
         .navbar-btn {
             width: 100%;
@@ -376,12 +379,9 @@
         .details-templates img {
             margin-top: 30px;
         } 
-        .section-logo img {
-            width: 50%;
-        }
+       
         .play-store img {
             margin-bottom: 10px;
-            width: 49%;
         }
        
         button.btn-login {
@@ -401,6 +401,9 @@
         .user1 {
             width: 50%;
           
+        }
+        .user1 img {
+           margin-left: 0px;
         }
         .frame-page {    
             margin-top: 20px;

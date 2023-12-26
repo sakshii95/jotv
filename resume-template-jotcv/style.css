@@ -448,7 +448,9 @@
     
     
     @media(max-width:600px) {
-        
+        .container-opportunity {
+            width: 100%;
+        }
         .navbar-btn {
             width: 100%;
         }
@@ -456,8 +458,6 @@
         button#start-btn {
             margin-left: 0px;
         }
-       
-      
         .nav {
             display: initial;
             
