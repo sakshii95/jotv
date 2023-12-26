@@ -5,11 +5,14 @@
     overflow: hidden;
     
     }
+    .shadow{
+        overflow: hidden;
+    }
     .container-fluid.access {
         padding-top: 51px;
         color: white;
         background-color: #0353f0;
-        padding-left: 36px;
+        padding-left: 30px;
         margin-top: 36px;
     }
 
@@ -356,13 +359,24 @@
 .developer-box h4 {
     color: #444343;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 13px;
 }
-    
+.paragraph p {
+    margin-top: 12px;
+}
+.text-get img {
+    width: 100%;
+}
+
+
+
+
+
     @media(max-width:600px) {
-        .user-plateform {
+        
+        /* .user-plateform {
             display: initial;
-        }
+        } */
         .logo img {
             width: 40%;
         }
@@ -386,9 +400,8 @@
             margin-bottom: 10px;
         }
        
-        button.btn-login {
-            margin-left: 0px;
-         
+        .text-get img {
+            width: 100%;
         }
         .logo {
             display: initial;

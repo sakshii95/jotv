@@ -10,13 +10,13 @@ overflow: hidden;
     justify-content: space-between;
     display: flex;
     align-items: center;
+    margin-top: 20px;
+    padding: 25px;
 }
 .logo img {
     width: 60%;
 }
-.nav {
-    margin-top: 24px;
-}
+
 
 nav a:hover {
     color: black;
@@ -30,7 +30,7 @@ div#main {
 }
 
 button.btn-login {
-    margin-left: 25px;
+    margin-left: 15px;
     border: none;
     border-radius: 12px;
     padding: 5px 16px;
@@ -42,7 +42,7 @@ button.btn-login {
 
 
 nav a {
-    margin-left: 8px;
+    margin-left: 4px;
     font-weight: 600;
     color: grey;
     text-decoration: none;
@@ -229,7 +229,7 @@ svg {
     margin-left: 12px;
 }
 .play-store img {
-    width: 30%;
+    width: 36%;
 }
 i.fa-brands.fa-facebook {
     padding: 7px;
@@ -276,9 +276,7 @@ i.fa-brands.fa-twitter{
 
 
 @media(max-width:600px) {
-    nav a {
-        margin-left: 0px;
-    }
+    
     .navbar-btn {
         width: 100%;
     }
@@ -288,8 +286,7 @@ i.fa-brands.fa-twitter{
     }
    
     .nav {
-        display: initial;
-        
+        display: initial;  
     }
     .resume-template-image img {
         width: 100%;
@@ -299,25 +296,20 @@ i.fa-brands.fa-twitter{
     .details-templates img {
         margin-top: 30px;
     } 
-    .section-logo img {
-        width: 70%;
-    }
-    .play-store img {
-        margin-bottom: 10px;
-        width: 70%;
-    }
-   
-    button.btn-login {
-        margin-left: 0px;
-     
-    }
+    
+  
+    
     .logo img {
         margin-left: 0px;
         width: 40%;
     }
     .logo {
-        display: initial;
-        
+        display: initial;       
     }
-    
+    nav a {
+        font-size: 15px;
+    }
+    .container-fluid.footer {
+        padding: 10px;
+    }
 }
