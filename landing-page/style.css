@@ -454,10 +454,15 @@ button#sub-btn {
 .link-big-text {
     margin-left: -401px;
 }
-
+.icon-box img {
+    width: 11%;
+}
 
 
 @media (max-width:600px){
+    .icon-box img {
+        margin-top: 250px;
+    }
     .link-big-text {
         margin-left: 0px;
     }
