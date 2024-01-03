@@ -317,10 +317,10 @@
 } 
 
 
-/* 
+
 .text-get img {
     width: 100%;
-} */
+}
 .login-template img {
     width: 60%;
 }
@@ -330,18 +330,20 @@
     margin-left: -35px;
 }
 
-.list-resume-profile {
-    align-items: center;
-    display: flex;
-    margin-left: 5px;
-    margin-bottom: -21px;
 
+.list-resume-profile {
+    margin-top: 29px;
+    height: 22px;
+    display: flex;
+    margin-left: 1px;
+    width: 100%;
+    align-items: center;
 }
 .list-resume-profile h3 {
     font-family: sans-serif;
     margin-left: 11px;
     font-size: 15px;
-    line-height: 1.5;
+   
 }
 .video-profile h2 {
     font-weight: 600;
