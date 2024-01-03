@@ -12,7 +12,8 @@
     .container-joint{
      background-image: url('Rectangle 1.png');
      color: white;
-    padding: 32px
+    padding: 25px;
+    background-size: cover;
     }
     
     .logo {
@@ -316,10 +317,10 @@
 } 
 
 
-
+/* 
 .text-get img {
     width: 100%;
-}
+} */
 .login-template img {
     width: 60%;
 }
@@ -373,10 +374,13 @@
     font-size: 19px;
 }
 .text-tool {
+    justify-content: space-between;
+    align-items: center;
     border-radius: 10px;
     margin-top: 11px;
     padding: 12px;
     background-color: white;
+    display: flex;
 }
 .container-fluid.tool {
     margin-top: 25px;
@@ -391,7 +395,13 @@
     line-height: 1.5;
     font-size: 16px;
 }
-
+i.fa-sharp.fa-solid.fa-minus {
+    border-radius: 4px;
+    margin-top: -79px;
+    padding: 4px 7px;
+    color: white;
+    background-color: blue;
+}
 
 
 
@@ -404,7 +414,13 @@
         .video-profile {
             margin-top: 13px;
         }
-
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            margin-left: 4px;
+            font-size: 15px;
+        }
 
         .resume-template h2 {
             font-size: 25px;
@@ -432,9 +448,9 @@
             margin-bottom: 10px;
         }
        
-        .text-get img {
+        /* .text-get img {
             width: 100%;
-        }
+        } */
         .logo {
             display: initial;
 
