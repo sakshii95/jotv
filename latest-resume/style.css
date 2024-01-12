@@ -1,484 +1,455 @@
-.homepage{
-    margin: auto;
-    overflow: hidden;
-   background-color: #f3f3f3;
-    
-    }
-    .shadow{
-        overflow: hidden;
-    }
-    .container-joint{
-     background-image: url('Rectangle 1.png');
-     color: white;
-    padding: 25px;
-    background-size: cover;
-    }
-    
-    .logo {
-        justify-content: space-between;
-        display: flex;
-        align-items: center;
-    }
-    .container-fluid.access {
-        margin-top: 50px;
-    }
-    .logo img {
-        width: 50%;
-    }
-    .nav {
-        margin-top: 24px;
-    }
-    
-    nav a:hover {
-        color: black;
-        text-decoration: none;   
-    }
-    
-    div#main {
-        align-items: center;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    
-    button.btn-login {
-        margin-left: 7px;
-        border: none;
-        border-radius: 12px;
-        padding: 5px 12px;
-        font-size: 16px;
-        font-weight: 500;
-        color: blue;
-        background-color: white;
-    }
-    nav a {
-        margin-left: 7px;
-        font-weight: 600;
-        color: white;
-        text-decoration: none;
-        font-size: 16px;
-    }
-   
-    
-    
-   
-   
-    .resume-template-image img {
-        width: 50%;
-    }
-    button#template-btn {
-        border-radius: 12px;
-        font-size: 16px;
-        padding: 10px 35px;
-        border: none;
-        color: blue;
-        background-color: white;
-        margin-top: 19px;
-    }
-    .user-plateform h3 {
-        margin-left: 8px;
-    }
-   
-    .user-plateform h3 a {
-        color: #3c3b3b;
-        font-size: 15px;
-        text-decoration: none;
-    }
-    
-    .user-plateform {
-        display: flex;
-        align-items: center;      
-    }
-    .user1 img {
-        width: 25%;
-    }
-    .user1 {
-        height: 64px;
-        width: 32%;
-        border-radius: 12px;
-        border: 1px solid #9898fb;
-        display: flex;
-        padding: 2px 18px;
-        align-items: center;
-        margin: 9px;
-        background-color: white
-    }
-    .text-students h2 {
-        font-size: 33px;
-        font-weight: 600;
-    }
-    .resume-template h2 {
-        font-size: 35px;
-        font-weight: 600;
-    }
-    .resume-template-image img {
-        width: 50%;
-    }
-    .video-profile1-box img {
-        width: 100%;
-    }
-    .video-profile-box img {
-        width: 100%;
-        margin-left: 58px;
-    }
-    .details-templates img {
-        width: 100%;
-    }
-    .resume-template img {
-        margin-bottom: 10px;
-        width: 65%;
-        margin-top: 17px;
-    }
-   
-   
-   
-    .container-fluid.login {
-        margin-top: 60px;
-    }    
-    .login-template-text h2 a {
-        font-weight: 600;
-        color: black;
-        font-size: 31px;
-    }
-    .login-template-text h2 {
-        font-size: 28px;
-        font-weight: 600;
-        margin-top: 70px;
-    }
-  
-    .login-template-text h3 {
-        word-spacing: 4px;
-        color: #4c4b4b;
-        font-size: 17px;
-        margin-bottom: 10px;
-    }
-    
-    
-    .rating {
-        display: flex;
-        align-items: center;
-        margin-top: 45px;
-    }
-    .rating-list2 {
-        margin-left: 35px;
-    }
-    
-    
-    .login-create h2 a {
-        font-weight: 600;
-        font-size: 19px;
-        color: black;
-    }
-    .login-create h3 {
-        color: grey;
-        font-size: 17px;
-        margin-top: 5px;
-    }
-    .text-get h2 {
-        font-weight: 600;
-        font-size: 32px;
-    }
-    
-    
-    button#start-btn {
-        border-radius: 30px;
-        font-size: 18px;
-        padding: 13px 39px;
-        border: none;
-        color: white;
-        background-color: blue;
-        margin-top: 19px;
-        margin-left: 196px;
-    }
-    .text-get p {
-        color: gray;
-        font-size: 15px;
-        margin-top: 16px;
-    
-    }
-   
-    .video-profile-box h2 a {
-        font-size: 21px;
-        color: #0a0707;
-        font-weight: 600;
-        text-decoration: none;
-    }
-    .video-profile-box h3 {
-        margin-top: 6px;
-        color: grey;
-        font-size: 17px;
-    }
- 
-    i.fa-solid.fa-check {
-        font-size: 14px;
-        border-radius: 20px;
-        color: white;
-        padding: 6px;
-        background-color: blue;
-    }
-    .company-resume h3 {
-        font-size: 20px;
-        margin-left: 34px;
-        font-weight: 600;
-    }
-   
-    ul.list-resume li a {
-        font-size: 14px;
-        text-decoration: none;
-        color: white;
-    }
-    ul.list-resume li {
-        margin-top: 6px;
-        list-style-type: none;
-    }
-    .container-fluid.resume-builder {
-        margin-top: 20px;
-        padding: 14px;
-    }
-    i.fa-solid.fa-star {
-        color: #e9e922;
-    }
-    
-    .login-create {
-        margin-left: 12px;
-    }
-    .play-store img {
-        width: 35%;
-    }
-    i.fa-brands.fa-facebook {
-        padding: 7px;
-        font-size: 21px;
-        border: 1px solid white;
-        border-radius: 50%;
-        color: white;
-    }
-    i.fa-brands.fa-instagram{
-        padding: 7px;
-        font-size: 21px;
-        border: 1px solid white;
-        border-radius: 50%;
-        margin-left: 5px; 
-        color: white;
+.homepage {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  background-color: #f3f3f3;
+}
+.shadow {
+  overflow: hidden;
+}
+.container-joint {
+  background-image: url("Rectangle 1.png");
+  color: white;
+  padding: 25px;
+  background-size: cover;
+}
 
-    }
-    i.fa-brands.fa-twitter{
-        margin-left: 5px; 
-        padding: 7px;
-        font-size: 21px;
-        border: 1px solid white;
-        border-radius: 50%;
-        color: white;
+.logo {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.container-fluid.access {
+  margin-top: 50px;
+}
+.logo img {
+  width: 50%;
+}
+.nav {
+  margin-top: 24px;
+}
 
-    }
-    .play-store {
-        margin-bottom: 20px;
-    }
-    .section-logo img {
-        width: 42%;
-        margin-top: 10px;
-        margin-bottom: 19px;
-    }
-   
-  
+nav a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+div#main {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button.btn-login {
+  margin-left: 7px;
+  border: none;
+  border-radius: 12px;
+  padding: 5px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: blue;
+  background-color: white;
+}
+nav a {
+  margin-left: 7px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.resume-template-image img {
+  width: 50%;
+}
+button#template-btn {
+  border-radius: 12px;
+  font-size: 16px;
+  padding: 10px 35px;
+  border: none;
+  color: blue;
+  background-color: white;
+  margin-top: 19px;
+}
+.user-plateform h3 {
+  margin-left: 8px;
+}
+
+.user-plateform h3 a {
+  color: #3c3b3b;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.user-plateform {
+  display: flex;
+  align-items: center;
+}
+.user1 img {
+  width: 25%;
+}
+.user1 {
+  height: 64px;
+  width: 32%;
+  border-radius: 12px;
+  border: 1px solid #9898fb;
+  display: flex;
+  padding: 2px 18px;
+  align-items: center;
+  margin: 9px;
+  background-color: white;
+}
+.text-students h2 {
+  font-size: 33px;
+  font-weight: 600;
+}
+.resume-template h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.resume-template-image img {
+  width: 50%;
+}
+.video-profile1-box img {
+  width: 100%;
+}
+.video-profile-box img {
+  width: 100%;
+  margin-left: 58px;
+}
+.details-templates img {
+  width: 100%;
+}
+.resume-template img {
+  margin-bottom: 10px;
+  width: 65%;
+  margin-top: 17px;
+}
+
+.container-fluid.login {
+  margin-top: 60px;
+}
+.login-template-text h2 a {
+  font-weight: 600;
+  color: black;
+  font-size: 31px;
+}
+.login-template-text h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 70px;
+}
+
+.login-template-text h3 {
+  word-spacing: 4px;
+  color: #4c4b4b;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+}
+.rating-list2 {
+  margin-left: 35px;
+}
+
+.login-create h2 a {
+  font-weight: 600;
+  font-size: 19px;
+  color: black;
+}
+.login-create h3 {
+  color: grey;
+  font-size: 17px;
+  margin-top: 5px;
+}
+.text-get h2 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+button#start-btn {
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 13px 39px;
+  border: none;
+  color: white;
+  background-color: blue;
+  margin-top: 19px;
+  margin-left: 196px;
+}
+.text-get p {
+  color: gray;
+  font-size: 15px;
+  margin-top: 16px;
+}
+
+.video-profile-box h2 a {
+  font-size: 21px;
+  color: #0a0707;
+  font-weight: 600;
+  text-decoration: none;
+}
+.video-profile-box h3 {
+  margin-top: 6px;
+  color: grey;
+  font-size: 17px;
+}
+
+i.fa-solid.fa-check {
+  font-size: 14px;
+  border-radius: 20px;
+  color: white;
+  padding: 6px;
+  background-color: blue;
+}
+.company-resume h3 {
+  font-size: 20px;
+  margin-left: 34px;
+  font-weight: 600;
+}
+
+ul.list-resume li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+ul.list-resume li {
+  margin-top: 6px;
+  list-style-type: none;
+}
+.container-fluid.resume-builder {
+  margin-top: 20px;
+  padding: 14px;
+}
+i.fa-solid.fa-star {
+  color: #e9e922;
+}
+
+.login-create {
+  margin-left: 12px;
+}
+.play-store img {
+  width: 35%;
+}
+i.fa-brands.fa-facebook {
+  padding: 7px;
+  font-size: 21px;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+}
+i.fa-brands.fa-instagram {
+  padding: 7px;
+  font-size: 21px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 5px;
+  color: white;
+}
+i.fa-brands.fa-twitter {
+  margin-left: 5px;
+  padding: 7px;
+  font-size: 21px;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+}
+.play-store {
+  margin-bottom: 20px;
+}
+.section-logo img {
+  width: 42%;
+  margin-top: 10px;
+  margin-bottom: 19px;
+}
+
 .text-students {
-    text-align: center;
-}  
-    
-    
-
+  text-align: center;
+}
 
 .container-app {
-    background-color: blue;
-    color: white;
+  background-color: blue;
+  color: white;
 }
 .intern-footer {
-    display: flex;
+  display: flex;
 }
 .container-discover {
-    text-align: center;
-    margin-top: 100px;
-}   
-    
+  text-align: center;
+  margin-top: 100px;
+}
+
 .container-discover h2 {
-    color: black;
-    font-weight: 600;
-    font-size: 29px;
-}  
+  color: black;
+  font-weight: 600;
+  font-size: 29px;
+}
 .container-discover h3 {
-    font-size: 15px;
-    color: black;
+  font-size: 15px;
+  color: black;
 }
 .container-fluid.footer {
-    padding: 25px;
-    color: white;
-    background-color: blue;
-    margin-top: 90px;
-} 
-
-
+  padding: 25px;
+  color: white;
+  background-color: blue;
+  margin-top: 90px;
+}
 
 .text-get img {
-    width: 100%;
+  width: 100%;
 }
 .login-template img {
-    width: 60%;
+  width: 60%;
 }
 
 .company-resume {
-    margin-top: 30px;
-    margin-left: -35px;
+  margin-top: 30px;
+  margin-left: -35px;
 }
-
 
 .list-resume-profile {
-    margin-top: 29px;
-    height: 22px;
-    display: flex;
-    margin-left: 1px;
-    width: 100%;
-    align-items: center;
+  margin-top: 29px;
+  height: 22px;
+  display: flex;
+  margin-left: 1px;
+  width: 100%;
+  align-items: center;
 }
 .list-resume-profile h3 {
-    font-family: sans-serif;
-    margin-left: 11px;
-    font-size: 15px;
-   
+  font-family: sans-serif;
+  margin-left: 11px;
+  font-size: 15px;
 }
 .video-profile h2 {
-    font-weight: 600;
-    font-size: 21px;
-    margin-bottom:-9;
+  font-weight: 600;
+  font-size: 21px;
+  margin-bottom: -9;
 }
 .video-profile img {
-    width: 20%;
+  width: 20%;
 }
 .video-profile {
-    height: 400px;
-    padding: 19px;
-    border-radius: 10px;
-    border:1px solid #979595;
+  height: 400px;
+  padding: 19px;
+  border-radius: 10px;
+  border: 1px solid #979595;
 }
 .list-resume-profile img {
-    border-radius: 5px;
-    border: 2px solid blue;
-    width: 10%;
+  border-radius: 5px;
+  border: 2px solid blue;
+  width: 10%;
 }
 .container-fluid.box {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 .text-center h2 {
-    font-weight: 600;
-    font-size: 25px;
+  font-weight: 600;
+  font-size: 25px;
 }
 .text-center h3 {
-    margin-top: 0px;
-    font-size: 19px;
+  margin-top: 0px;
+  font-size: 19px;
 }
 .text-tool {
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 10px;
-    margin-top: 11px;
-    padding: 12px;
-    background-color: white;
-    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 11px;
+  padding: 12px;
+  background-color: white;
+  display: flex;
 }
 .container-fluid.tool {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .text-tool h3 {
-    font-family: sans-serif;
-    font-weight: 600;
-    font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 18px;
 }
 .text-tool h4 {
-    line-height: 1.5;
-    font-size: 16px;
+  line-height: 1.5;
+  font-size: 16px;
 }
 i.fa-sharp.fa-solid.fa-minus {
-    border-radius: 4px;
-    margin-top: -79px;
-    padding: 4px 7px;
-    color: white;
-    background-color: blue;
+  border-radius: 4px;
+  margin-top: -79px;
+  padding: 4px 7px;
+  color: white;
+  background-color: blue;
 }
 
+@media (max-width: 600px) {
+  .video-profile {
+    margin-top: 13px;
+  }
+  nav {
+    margin-top: 20px;
+  }
+  nav a {
+    margin-left: 4px;
+    font-size: 15px;
+  }
 
+  .resume-template h2 {
+    font-size: 25px;
+  }
+  .logo img {
+    width: 40%;
+  }
+  .container-fluid.resume-builder {
+    padding: 0px;
+  }
+  .navbar-btn {
+    width: 100%;
+  }
 
+  .resume-template-image img {
+    width: 100%;
+    margin-top: 25px;
+  }
 
+  .details-templates img {
+    margin-top: 30px;
+  }
 
+  .play-store img {
+    margin-bottom: 10px;
+  }
 
-
-
-    @media(max-width:600px) {
-        .video-profile {
-            margin-top: 13px;
-        }
-        nav {
-            margin-top: 20px;
-        }
-        nav a {
-            margin-left: 4px;
-            font-size: 15px;
-        }
-
-        .resume-template h2 {
-            font-size: 25px;
-        }
-        .logo img {
-            width: 40%;
-        }
-        .container-fluid.resume-builder {
-            padding: 0px;
-        }
-        .navbar-btn {
-            width: 100%;
-        }
-    
-        .resume-template-image img {
-            width: 100%;
-            margin-top: 25px;
-        }
-        
-        .details-templates img {
-            margin-top: 30px;
-        } 
-       
-        .play-store img {
-            margin-bottom: 10px;
-        }
-       
-        /* .text-get img {
+  /* .text-get img {
             width: 100%;
         } */
-        .logo {
-            display: initial;
+  .logo {
+    display: initial;
+  }
+  .video-profile-box img {
+    margin-left: 0px;
+  }
+  .big-section {
+    padding: 0px;
+  }
 
-        }
-        .video-profile-box img {
-            margin-left: 0px;
-        }
-        .big-section {
-            padding:0px;
-        }
-       
-        .frame-page {    
-            margin-top: 20px;
-        }
-        button.btn-login {
-            margin-top: 10px;
-        }
-        .user1 {
-            height: 64px;
-            width: 50%;
-            margin-top: 12px;
-            padding: 7px 11px;
-        }
-        .user1 img {
-           max-width:  100%;
-        }
-        .user-plateform h3 a {
-            font-size: 10px;
-        }
-       
-    }
+  .frame-page {
+    margin-top: 20px;
+  }
+  button.btn-login {
+    margin-top: 10px;
+  }
+  .user1 {
+    height: 64px;
+    width: 50%;
+    margin-top: 12px;
+    padding: 7px 11px;
+  }
+  .user1 img {
+    max-width: 100%;
+  }
+  .user-plateform h3 a {
+    font-size: 10px;
+  }
+}
