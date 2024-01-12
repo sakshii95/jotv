@@ -1,11 +1,13 @@
 .homepage{
     margin: auto;
     overflow: hidden;
-   background-color: #f3f3f3;
+   background-color: #f9f9f9a6;
+   max-width: 1200px;
     
     }
     .shadow{
         overflow: hidden;
+
     }
     .container-joint{
      background-image: url('Rectangle 1.png');
@@ -15,7 +17,7 @@
     }
     
     .logo {
-        justify-content: space-between;
+        justify-content: space-around;
         display: flex;
         align-items: center;
     }
@@ -113,9 +115,7 @@
     .resume-template-image img {
         width: 50%;
     }
-    .video-profile1-box img {
-        width: 100%;
-    }
+   
     .video-profile-box img {
         width: 100%;
         margin-left: 58px;
@@ -355,7 +355,7 @@
     height: 400px;
     padding: 19px;
     border-radius: 10px;
-    border:1px solid #979595;
+    border:1px solid #d1cece;
 }
 .list-resume-profile img {
     border-radius: 5px;
