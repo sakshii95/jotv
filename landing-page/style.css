@@ -1,16 +1,16 @@
 .homepage{
     max-width: 1200px;
     margin: auto;
+    
     background-color: #fbfbfb;
     overflow: hidden;
-    /* display: table; */
 }
 
 
 
 .resume-template img {
     position: absolute;
-    width: 60%;
+    width: 50%;
 }
 .container-fluid.access {
     margin-bottom: 270px;
@@ -31,7 +31,6 @@ button#template-btn1 {
    margin-left: 10px;
     
 }
-
 button#template-btn {
     border-radius: 13px;
     font-size: 15px;
@@ -47,15 +46,15 @@ button#template-btn {
     color: white;
 }
 .resume-template1 {
-    margin-top: 90px;
+    margin-top: 50px;
+    margin-left: 70px;
 }
-.row{
-    margin-left: 90px;
-}
+
+
 .resume-template1 p {
-    margin-top: 19px;
+    margin-top: 21px;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 16px;
 }
 .company-resume {
     margin-top: 30px;
@@ -143,7 +142,7 @@ button.btn-login {
     background-color: blue;
 }
 nav a {
-    margin-right: 8px;
+    margin-right: 20px;
     font-weight: 600;
     color: grey;
     text-decoration: none;
@@ -179,8 +178,9 @@ nav a {
 }
 .video-profile-box {
     text-align: center;
-    height: 330px;
+    height: 350px;
     background-color: white;
+    padding: 20px;
 }
 .video-profile-box img {
     margin-top: 36px;
@@ -264,24 +264,23 @@ i.fa-solid.fa-star {
     font-size: 20px;
     color: #f9f933;
 }
+.frame-system {
+    padding: 17px;
+    width: 100%;
+    margin-top: 15px;
+}
 .frame-page1 {
     border-radius: 10px;
-    height: 560px;
-    padding: 20px;
     background-color: white;
     border-top: 3px solid grey;
 }
 .frame-page2 {
     border-radius: 10px;
-    height: 560px;
-    padding: 20px;
     background-color: white;
     border-top: 3px solid orange;
 }
 .frame-page3 {
     border-radius: 10px;
-    height: 560px;
-    padding: 20px;
     background-color: white;
     border-top: 3px solid green;
 }
@@ -316,7 +315,7 @@ button#start-btn {
     margin-top: 138px;
 }
 .get-start-box1 {
-    margin-top: 247px;
+    margin-top: 242px;
 }
 
 .frame-system h2 {
@@ -438,10 +437,11 @@ button#sub-btn {
     border-radius:10px;
 }
 
+
 .main-container {
     border-radius: 8px;
-    margin-top: 41px;
-    padding: 15px;
+    margin-top: 100px;
+    padding: 8px;
     background-color: white;
 }
 .text-get-touch h2 {
@@ -462,66 +462,21 @@ button#sub-btn {
 .icon-box img {
     width: 10%;
 }
+.icon-box {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-top: 47px;
+}
+.resume-template h2 {
+    font-weight: 600;
+    font-size: 42px;
+}
 
-
-
-
-
-
-
-    .col-sm-4:hover {
-        transform: scale(1.1);
-    }
-
-    .frame-system {
-        padding: 20px;
-        transition: all 0.3s ease-in-out;
-    }
-
-    .frame-system:hover {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    }
-
-    .get-start-box1,
-    .get-start-box2,
-    .get-start-box3 {
-        opacity: 0;
-        transform: translateY(20px);
-        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-    }
-
-    .col-sm-4:hover .get-start-box1,
-    .col-sm-4:hover .get-start-box2,
-    .col-sm-4:hover .get-start-box3 {
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-    #start-btn {
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        cursor: pointer;
-    }
-
-    #start-btn:hover {
-        background-color: #0056b3;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.resume-template p {
+    font-size: 17px;
+    color: #646262;
+}
 
 
 
@@ -537,13 +492,13 @@ button#sub-btn {
 
 
 @media (max-width:600px){
-    .resume-template {
-        margin-top: 34px;
+    .icon-box img {
+        margin-top: 88px;
     }
-    .row{
+    /* .row{
         margin-left: 0px;
         width: 100%;
-    }
+    } */
     .link-big-text {
         margin-left: 0px;
     }
@@ -552,7 +507,7 @@ button#sub-btn {
         margin-top: 10px;  
     }
     .login-template {
-        margin-top: 90px;
+        margin-top: 25px;
     }
 .links-list2  {
         width: 100%;
@@ -564,9 +519,7 @@ button#sub-btn {
     .logo img{
        width: 30%;
     }
-    .frame-page3 {
-        margin-top: 35px;
-    }
+   
     .get-start-box2 {
         margin-top: 108px;
     }
@@ -575,9 +528,13 @@ button#sub-btn {
         margin-left: 0px;
       
     }
+    button#template-btn1 {
+       margin-left: 0px;
+        margin-top: 17px;
+    }
     .resume-template img {
-        width: 60%;  
-        margin: auto;
+        width: 100%;  
+        margin-top: 20px;
     }
     .text-image img {
         width: 100%;
@@ -586,17 +543,15 @@ button#sub-btn {
     .text-image img {
         width: 100%;
     }
-    .frame-page2 {
-        margin-top: 22px;
-    }
+   
     .resume-template1 h2 {
         font-size: 38px;
     }
     .resume-template1{
-        margin-left: 0px;
+        margin-left: 10px;
     }
     .container-fluid.access {
-        margin-top: -28px;
+        margin-top: 10px;
     }
     .text-get h2 {
         font-size: 29px;
@@ -604,17 +559,13 @@ button#sub-btn {
     .video-profile-box {
         margin-top: 31px;
     }
-    button#template-btn1 {
-        margin-left: 0px;
-        margin-top: 16px;
+    .get-start-box1 {
+        margin-top: 170px;
     }
     nav a {
+        margin-right: 7px;
         font-size: 13px;
-       
-    }
-    button.btn-login {
-        margin-top: 12px;
+      
     }
 
 }
-
