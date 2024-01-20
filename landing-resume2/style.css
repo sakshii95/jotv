@@ -150,9 +150,10 @@ button#template-btn {
   }
   
   .play-store img {
-    width: 40%;
-    margin-bottom: 12px;
+    width: 45%;
+    margin-bottom: 17px;
 }
+
 .text-center h2 {
   font-weight: 600;
   font-size: 25px;
@@ -193,7 +194,7 @@ i.fa-sharp.fa-solid.fa-minus {
 .section-logo img {
     margin-top: 24px;
     margin-bottom: 16px;
-    width: 40%;
+    width: 45%;
 }
 
 .resume-template {
@@ -249,7 +250,40 @@ button.btn-more {
 .resume-template p {
     font-size: 18px;
 }
+i.fa-brands.fa-facebook {
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: white;
+    margin-left: -2px;
+    border: 1px solid white;
+}
 
+
+
+i.fa-brands.fa-instagram{
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 4px;
+    border: 1px solid white;
+}
+i.fa-brands.fa-dribbble{
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+}
+ i.fa-brands.fa-twitter{
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 4px;
+    border: 1px solid white;
+}
 
 @media (max-width:600px){
     .resume-template {
@@ -269,5 +303,8 @@ button.btn-more {
     }
     .logo img {
         width: 50%;
+    }
+    .resume-template-image img {
+        width: 100%;
     }
 }
