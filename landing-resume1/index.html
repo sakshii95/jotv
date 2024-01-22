@@ -8,7 +8,14 @@
     <script src="https://kit.fontawesome.com/c68bedd31e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <script>
+        function toggleNavbar() {
+            var navbar = document.querySelector('.navbar');
+            navbar.style.display = (navbar.style.display === 'none' || navbar.style.display === '') ? 'flex' : 'none';
+        }
+    </script>
 </head>
+
 <body>
   <div class="homepage">
 <div class="shadow">
@@ -16,21 +23,22 @@
         <div class="nav">
             <div class="logo">
                 <div class="logo-top">
-                    <a href=latest-resume/Layer_1.png"> <img src="Layer_1.png" alt=""></a>
+                    <a href="latest-resume/Layer_1.png"> <img src="Layer_1.png" alt=""></a>
                 </div>
-                <!-- <div id="main"> -->
-                    <nav>
-                        <a href="https://jotcv.com/">Home</a>
-                        <a href="https://www.jotcv.com/pricing-plans">Pricing</a>
-                        <a href="https://in.linkedin.com/company/jotcv">Career</a>
-                        <a href="https://www.jotcv.com/our-templates">Templates</a>
-                        <a href="https://www.jotcv.com/">Blog</a>
-                    </nav>
-                    <button class="btn-login">Login</button>
-
-                <!-- </div> -->
+                <nav class="navbar">
+                    <a href="https://jotcv.com/">Home</a>
+                    <a href="https://www.jotcv.com/pricing-plans">Pricing</a>
+                    <a href="https://in.linkedin.com/company/jotcv">Career</a>
+                    <a href="https://www.jotcv.com/our-templates">Templates</a>
+                    <a href="https://www.jotcv.com/">Blog</a>
+                </nav>
+                <button class="btn-login">Login</button>
+                <div class="hamburger" onclick="toggleNavbar()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
             </div>
-
         </div>
 
         <div class="section">

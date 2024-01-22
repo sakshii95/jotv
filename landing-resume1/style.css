@@ -5,6 +5,12 @@
     display: table;
 }
 
+
+
+.logo-top img {
+  width: 52%;
+}
+
 .icon-box img {
     width: 10%;
 }
@@ -121,3 +127,72 @@ button#template-btn {
 }
 
 
+.nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-login {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      background-color: #333;
+  }
+
+  .navbar a {
+      padding: 15px;
+      display: block;
+      color: white;
+      text-decoration: none;
+  }
+
+  .btn-login {
+      margin-top: 10px;
+  }
+
+  .hamburger {
+      display: flex;
+  }
+}
