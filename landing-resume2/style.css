@@ -92,7 +92,7 @@ button#template-btn {
   .container-fluid.footer {
     padding: 25px;
     color: white;
-    background-color: blue;
+    background-color: #0c57e1;
     margin-top: 90px;
   }
  
@@ -283,7 +283,7 @@ i.fa-brands.fa-dribbble{
     padding: 15px;
     display: flex;
     align-items: center;
-    margin-top: 35px;
+   
 }
 
 .navbar-logo {

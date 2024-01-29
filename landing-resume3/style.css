@@ -1,0 +1,269 @@
+.container-resume{
+  max-width: 1200px;
+  margin: auto;
+  display: table;
+}
+
+
+
+.navbar {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  }
+  .resume-template p {
+    font-size: 19px;
+  }
+  .resume-template h2 {
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .navbar-logo img {
+    width: 100%;
+   
+  }
+  
+  .navbar-links {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* margin-left: 220px; */
+    text-align: center;
+  }
+  
+  .navbar-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    color: #727171;
+}
+  
+  .navbar-toggle-btn {
+    cursor: pointer;
+    border: none;
+    color: black;
+    font-size: 20px;
+    display: none;
+  }
+  
+  
+  
+  .sidebar {
+    height: 50%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -128px;
+    background-color: rgb(19 12 124);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidebar a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    transition: 0.3s;
+    margin-top: 15px;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  
+  .sidebar .close-btn {
+    padding: 0px 11px;
+    position: absolute;
+    top: 4px;
+    font-size: 24px;
+    margin-left: 50px;
+    left: -46px;
+    color: black;
+  }
+  .main-content {
+    transition: margin-left 0.5s;
+    padding: 16px;
+  }
+  button.btn-login {
+    /* margin-left: 120px; */
+    border: none;
+    border-radius: 12px;
+    padding: 5px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    color: blue;
+    background-color: white;
+  }
+
+/* navbar pt./ */
+
+.features-img img {
+  width: 50%;
+}
+
+.create-resume {
+  align-items: center;
+  display: flex;
+}
+.create-resume img {
+  width: 15%;
+}
+.resume-based h2 {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.resume-based h3 {
+  line-height: 1.4;
+  font-size: 16px;
+  color: #4a4a4a;
+  font-family: sans-serif;
+}
+.resume-based {
+  margin-left: 27px;
+}
+.container-fluid.customizeresum {
+  margin-top: 135px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-center h3 {
+  margin-top: 0px;
+  font-size: 19px;
+}
+.text-tool {
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 11px;
+  padding: 12px;
+  background-color: white;
+  display: flex;
+}
+.container-fluid.tool {
+  margin-top: 25px;
+}
+
+.text-tool h3 {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+.text-tool h4 {
+  line-height: 1.5;
+  font-size: 16px;
+}
+i.fa-sharp.fa-solid.fa-minus {
+  border-radius: 4px;
+  margin-top: -79px;
+  padding: 4px 7px;
+  color: white;
+  background-color: blue;
+}
+.intern-footer {
+  display: flex;
+}
+.container-fluid.footer {
+  padding: 25px;
+  color: white;
+  background-color: blue;
+  margin-top: 90px;
+}
+.company-resume h3 {
+  font-size: 20px;
+  margin-left: 34px;
+  font-weight: 600;
+}
+.container-fluid.footer {
+  padding: 25px;
+  color: white;
+  background-color: blue;
+  margin-top: 90px;
+}
+ul.list-resume li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+ul.list-resume li {
+  margin-top: 6px;
+}
+.section-logo img {
+  width: 55%;
+}
+.play-store img {
+  margin-top: 14px;
+  width: 50%;
+  margin-bottom: 14px;
+}
+
+i.fa-brands.fa-facebook {
+  padding: 7px;
+  font-size: 21px;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+}
+i.fa-brands.fa-instagram {
+  padding: 7px;
+  font-size: 21px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 5px;
+  color: white;
+}
+i.fa-brands.fa-twitter {
+  margin-left: 5px;
+  padding: 7px;
+  font-size: 21px;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+}
+ul.list-resume li {
+  list-style-type: none;
+}
+.companies-logo img {
+  margin-top: 31px;
+}
+
+
