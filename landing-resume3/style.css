@@ -155,8 +155,10 @@
   text-align: center;
   margin-top: 85px;
 }
+
 .text-center h2 {
-  font-size: 25px;
+  margin-top: 150px;
+  font-size: 21px;
   font-weight: 600;
 }
 .text-center h3 {
@@ -338,7 +340,7 @@ button#try-btn {
 
   .navbar-logo img {
     width: 100%;
-    margin-left: 11px;
+    margin-left: 18px;
 }
   button.btn-login {
     margin-left: 38px;
