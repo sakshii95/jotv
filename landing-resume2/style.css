@@ -256,7 +256,8 @@ i.fa-brands.fa-dribbble{
     }
    
     .resume-template h2 {
-        font-size: 29px;
+        line-height: 1.4;
+        font-size: 24px;
     }
     button#template-btn {
         width: 50%;
@@ -377,7 +378,7 @@ button.btn-login {
     color: white;
     background-color: blue;
 }
-@media screen and (max-width: 768px) {
+@media (max-width:600px) {
     .navbar-links {
         display: none;
         flex-direction: column;
@@ -399,7 +400,7 @@ button.btn-login {
 
     .navbar-toggle-btn {
         display: block;
-        margin-left: 107px;
+        margin-left: 40px;
     }
 
     .main-content {
@@ -411,8 +412,38 @@ button.btn-login {
     button.btn-login {
         margin-left: 38px;
     }
+    .resume-template {
+        margin-left: 0px;
+    }
+    .logo {
+        display: initial;
+    }
+   
+    .resume-template h2 {
+        line-height: 1.4;
+        font-size: 24px;
+    }
+    button#template-btn {
+        width: 50%;
+    }
+    .logo img {
+        width: 50%;
+    }
+    .resume-template-image img {
+        width: 100%;
+    }
+    button.btn-more {
+        width: 50%;
+        margin-top: 8px;
+    }
+    .login-template {
+        margin-top: 18px;
+    }
+    .template-center h2 {
+        font-size: 20px;
+      
+    }
 }
-
 
 
 

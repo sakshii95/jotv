@@ -19,6 +19,7 @@
     align-items: center;
     color: white;
     text-decoration: none;
+    margin-left: -45px;
   }
   .resume-template p {
     font-size: 19px;
@@ -29,20 +30,20 @@
     font-weight: 600;
   }
   .navbar-logo img {
-    width: 100%;
+    width: 65%;
    
   }
   
+ 
   .navbar-links {
     align-items: center;
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-    /* margin-left: 220px; */
     text-align: center;
-  }
-  
+    margin-left: 100px;
+}
   .navbar-links li {
     margin-right: 20px;
   }
@@ -65,25 +66,26 @@
   
   
   .sidebar {
-    height: 50%;
+    height: 40%;
     width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
-    right: -128px;
+    right: -113px;
     background-color: rgb(19 12 124);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
-  .sidebar a {
-    padding: 15px 25px;
-    text-decoration: none;
-    font-size: 20px;
-    display: block;
-    transition: 0.3s;
-    margin-top: 15px;
-  }
+}
+.sidebar a {
+  padding: 15px 25px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+  margin-top: -3px;
+  color: white;
+  font-size: 17px;
+}
   
   .sidebar a:hover {
     color: #f1f1f1;
@@ -104,32 +106,30 @@
     padding: 16px;
   }
   button.btn-login {
-    /* margin-left: 120px; */
     border: none;
     border-radius: 12px;
     padding: 5px 12px;
     font-size: 15px;
     font-weight: 600;
-    color: blue;
-    background-color: white;
-  }
-
+    color: white;
+    background-color: #008aff;
+    margin-left: 185px;
+}
 /* navbar pt./ */
 
 .features-img img {
-  width: 50%;
+  width: 60%;
 }
-
 .create-resume {
   align-items: center;
   display: flex;
 }
 .create-resume img {
-  width: 15%;
+  width: 12%;
 }
 .resume-based h2 {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   font-family: sans-serif;
 }
 .resume-based h3 {
@@ -144,28 +144,21 @@
 .container-fluid.customizeresum {
   margin-top: 135px;
 }
+.companies-logo img {
+  width: 50%;
+}
+.companies-logo {
+  margin-top: 16px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.text-center {
+  text-align: center;
+  margin-top: 85px;
+}
+.text-center h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
 .text-center h3 {
   margin-top: 0px;
   font-size: 19px;
@@ -176,7 +169,7 @@
   border-radius: 10px;
   margin-top: 11px;
   padding: 12px;
-  background-color: white;
+  background-color: #f9f8f8;
   display: flex;
 }
 .container-fluid.tool {
@@ -209,8 +202,8 @@ i.fa-sharp.fa-solid.fa-minus {
   margin-top: 90px;
 }
 .company-resume h3 {
-  font-size: 20px;
-  margin-left: 34px;
+  font-size: 19px;
+  margin-left: -11px;
   font-weight: 600;
 }
 .container-fluid.footer {
@@ -259,11 +252,149 @@ i.fa-brands.fa-twitter {
   border-radius: 50%;
   color: white;
 }
+
 ul.list-resume li {
   list-style-type: none;
+  margin-left: -45px;
 }
 .companies-logo img {
   margin-top: 31px;
 }
+.features-text h2 {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 55px;
+}
+.features-text h3 {
+  font-size: 19px;
+  color: #525151;
+  line-height: 1.3;
+}
+button#try-btn {
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 10px 52px;
+  border: none;
+  color: white;
+  background-color: blue;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
 
+.text-jotcv img {
+  margin-top: 75px;
+  width: 70%;
+}
+
+.text-jotcv h2 {
+  font-size: 40px;
+}
+.text-jotcv p {
+  margin-top: 19px;
+  font-size: 18px;
+}
+
+.container-fluid.companytemplate {
+  margin-top: 63px;
+}
+.based-template {
+  margin-bottom: -42px;
+  margin-top: 100px;
+  text-align: center;
+}
+.based-template h2 {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.based-template h3 {
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.frontend-resume img {
+  width: 100%;
+}
+.container-fluid.images {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width:600px){
+  .container-fluid.customizeresum {
+    margin-top: 61px;
+}
+  .company-resume h3 {
+    font-size: 18px;
+}
+.features-text h2 {
+  font-size: 20px;
+}
+
+  .navbar-logo {
+    margin-left: -40px;
+}
+
+  .navbar-logo img {
+    width: 100%;
+    margin-left: 11px;
+}
+  button.btn-login {
+    margin-left: 38px;
+  }
+
+  .features-img img {
+    width: 100%;
+    margin-top: 45px;
+
+}
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+.navbar-links.show {
+    display: flex;
+}
+
+.navbar-links li {
+    margin: 0;
+    text-align: center;
+}
+
+.navbar-toggle-btn {
+    display: block;
+    margin-left: 40px;
+}
+
+.main-content {
+    margin-left: 0;
+}
+.navbar-links {
+    margin-left: 0px;
+}
+.text-jotcv img {
+  width: 100%;
+}
+.text-jotcv p {
+  font-size: 10px;
+}
+
+.text-jotcv h2 {
+  font-size: 32px;
+}
+.text-jotcv img {
+  margin-top: 25px;
+  width: 100%;
+}
+.text-center h2 {
+  font-size: 18px;
+}
+}
 
