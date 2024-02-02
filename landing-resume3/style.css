@@ -1,5 +1,5 @@
 .container-resume{
-  max-width: 1200px;
+  max-width: 1500px;
   margin: auto;
   display: table;
 }
@@ -19,7 +19,7 @@
     align-items: center;
     color: white;
     text-decoration: none;
-    margin-left: -45px;
+
   }
   .resume-template p {
     font-size: 19px;
@@ -265,9 +265,9 @@ ul.list-resume li {
   font-size: 55px;
 }
 .features-text h3 {
-  font-size: 19px;
+  font-size: 20px;
   color: #525151;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 button#try-btn {
   margin-top: 30px;
@@ -315,9 +315,11 @@ button#try-btn {
 .frontend-resume img {
   width: 100%;
 }
+
 .container-fluid.images {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .manager img {
   width: 15%;
@@ -370,24 +372,23 @@ span.light {
   color: white;
 }
 
-
+.features-text {
+  margin-left: 87px;
+}
 
 
 @media (max-width:600px){
+  .features-text {
+    margin-left: 0px;
+}
   .container-fluid.customizeresum {
     margin-top: 61px;
 }
 .features-text h3 {
   font-size: 14px;
 }
-  .navbar-logo {
-    margin-left: -40px;
-}
+ 
 
-  .navbar-logo img {
-    width: 100%;
-    margin-left: 18px;
-}
   button.btn-login {
     margin-left: 38px;
   }

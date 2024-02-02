@@ -142,8 +142,8 @@ ul.list-resume li a {
 }
 
 .sidebar {
-  height:47%;
-  width: 0;
+  height:100%;
+  width: 95%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -436,7 +436,33 @@ button#try-search{
 
 
 
+/* 
+.resume-template {
+  background-image: url('Rectangle 1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: spin;
+  animation-duration: 12s; 
+  animation-iteration-count: infinite; 
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg); 
+  }
+} */
+
+
 @media screen and (max-width: 768px) {
+
+  video {
+    width: 100%;
+}
+
   .text-job h3 {
     font-size: 16px;
    
