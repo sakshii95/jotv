@@ -15,26 +15,28 @@
 
     <div class="homepage">
         <div class="shadow">
-            
-            <div class="nav">
-                <div class="logo">
-                    <div class="logo-top">
-                    <img src="New Jotcv-09 1.png" alt="">
-                
-                    </div>
-                    <!-- <div id="main"> -->
-                        <nav>
-                            <a href="https://jotcv.com/">Home</a>
-                            <a href="https://www.jotcv.com/pricing-plans">Pricing</a>
-                            <a href="https://in.linkedin.com/company/jotcv">Career</a>
-                            <a href="https://www.jotcv.com/our-templates">Templates</a>
-                            <a href="https://www.jotcv.com/">Blog</a>
-                        </nav>
-                        <button class="btn-login">Login</button>
-
-                    <!-- </div> -->
-                </div>
-
+            <div class="big-container-nav">     
+                <div class="navbar">
+                    <a href="#" class="navbar-logo">
+                        <img src="New Jotcv-09 1.png" alt="">
+                    </a> 
+                    <ul class="navbar-links">
+                        <li><a href="https://jotcv.com/">Home</a></li>
+                       <li><a href="https://www.jotcv.com/pricing-plans">Pricing</a></li>
+                       <li><a href="https://in.linkedin.com/company/jotcv">Career</a></li>
+                       <li><a href="https://www.jotcv.com/our-templates">Templates</a></li>
+                       <li><a href="https://www.jotcv.com/">Blog</a></li>
+                    </ul>
+                    <button class="btn-login">Login</button>
+                    <button class="navbar-toggle-btn" onclick="toggleSidebar()">☰</button>
+                </div> 
+                <div id="mySidebar" class="sidebar">
+                    <button class="close-btn" onclick="closeSidebar()">×</button>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
+                </div>        
             </div>
 
                 <div class="section">
@@ -316,5 +318,15 @@
         </div>
     </div>
 </body>
+<script>
+    function toggleSidebar() {
+        document.getElementById("mySidebar").style.width = "300px";
+        document.getElementsByClassName("main-content")[0].style.marginLeft = "300px";
+    }
 
+    function closeSidebar() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementsByClassName("main-content")[0].style.marginLeft = "0";
+    }
+</script>
 </html>

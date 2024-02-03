@@ -1,8 +1,8 @@
 .homepage {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: auto;
     overflow: hidden;
-    background-color: #f3f3f3;
+    background-color: #fafbfb;
   }
   .shadow {
     overflow: hidden;
@@ -14,50 +14,7 @@
     background-size: cover;
   }
   
-  .logo {
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
-  }
-  .container-fluid.access {
-    margin-top: 50px;
-  }
-  .logo img {
-    width: 50%;
-  }
-  .nav {
-    margin-top: 24px;
-  }
-  
-  nav a:hover {
-    color: black;
-    text-decoration: none;
-  }
-  
-  div#main {
-    align-items: center;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  button.btn-login {
-    margin-left: 7px;
-    border: none;
-    border-radius: 12px;
-    padding: 5px 12px;
-    font-size: 16px;
-    font-weight: 500;
-    color: blue;
-    background-color: white;
-  }
-  
-  nav a {
-    margin-left: 30px;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
+ 
   .resume-template-image img {
     width: 50%;
   }
@@ -83,7 +40,8 @@
   .user-plateform {
     display: flex;
     align-items: center;
-  }
+    margin-top: 14px;
+}
   .user1 img {
     width: 25%;
   }
@@ -134,17 +92,18 @@
     font-size: 31px;
   }
   .login-template-text h2 {
-    font-size: 28px;
+    font-size: 60px;
     font-weight: 600;
     margin-top: 70px;
   }
-  
   .login-template-text h3 {
-    word-spacing: 4px;
+    word-spacing: 2px;
     color: #4c4b4b;
-    font-size: 17px;
+    font-size: 20px;
     margin-bottom: 10px;
-  }
+    line-height: 1.5;
+    font-family: ui-sans-serif;
+}
   
   .rating {
     display: flex;
@@ -269,7 +228,10 @@
   .text-students {
     text-align: center;
   }
-  
+  .text-center {
+    text-align: center;
+    margin-top: 80px;
+}
   .container-app {
     background-color: blue;
     color: white;
@@ -302,8 +264,9 @@
     width: 100%;
   }
   .login-template img {
+    margin-left: 117px;
     width: 60%;
-  }
+}
   
   .company-resume {
     margin-top: 30px;
@@ -319,29 +282,31 @@
     align-items: center;
   }
   .list-resume-profile h3 {
+    line-height: 1.5;
     font-family: sans-serif;
-    margin-left: 11px;
-    font-size: 15px;
-  }
+    margin-left: 15px;
+    font-size: 16px;
+}
+.list-resume-profile img {
+  border-radius: 5px;
+  border: 2px solid blue;
+  width: 7%;
+}
   .video-profile h2 {
     font-weight: 600;
     font-size: 21px;
     margin-bottom: -9;
   }
-  .video-profile img {
+  /* .video-profile img {
     width: 20%;
-  }
+  } */
   .video-profile {
     height: 400px;
     padding: 19px;
     border-radius: 10px;
     border: 1px solid #dbdbdb;
   }
-  .list-resume-profile img {
-    border-radius: 5px;
-    border: 2px solid blue;
-    width: 10%;
-  }
+ 
   .container-fluid.box {
     margin-top: 50px;
   }
@@ -387,14 +352,7 @@
     .video-profile {
       margin-top: 13px;
     }
-    nav {
-      margin-top: 20px;
-    }
-    nav a {
-      margin-left: 4px;
-      font-size: 15px;
-    }
-  
+   
     .resume-template h2 {
       font-size: 25px;
     }
@@ -404,9 +362,7 @@
     .container-fluid.resume-builder {
       padding: 0px;
     }
-    .navbar-btn {
-      width: 100%;
-    }
+    
   
     .resume-template-image img {
       width: 100%;
@@ -456,3 +412,178 @@
        padding: 6px;
     }
   }
+
+
+
+
+
+
+
+  .navbar {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+
+.navbar-logo img {
+    width: 70%;
+    margin-right: 10px;
+}
+.navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+}
+.navbar-links a {
+    font-family: monospace;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 24px;
+    color: black;
+}
+
+.navbar-links li {
+    margin-right: 20px;
+}
+
+
+.navbar-toggle-btn {
+    cursor: pointer;
+    border: none;
+    color: black;
+    font-size: 20px;
+    display: none;
+}
+
+
+
+.sidebar {
+    height: 70%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -128px;
+    background-color: rgb(19 12 124);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidebar a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+
+.sidebar .close-btn {
+    padding: 0px 11px;
+    position: absolute;
+    top: 4px;
+    font-size: 24px;
+    margin-left: 50px;
+    left: -46px;
+}
+.main-content {
+    transition: margin-left 0.5s;
+    padding: 16px;
+}
+button.btn-login {
+
+    border: none;
+    border-radius: 12px;
+    padding: 5px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: blue;
+}
+@media (max-width:600px) {
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .navbar-links.show {
+        display: flex;
+    }
+
+    .navbar-links li {
+        margin: 0;
+        text-align: center;
+    }
+
+    .navbar-toggle-btn {
+        display: block;
+        margin-left: 40px;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+    .navbar-links {
+        margin-left: 0px;
+    }
+    button.btn-login {
+        margin-left: 38px;
+    }
+    .resume-template {
+        margin-left: 0px;
+    }
+    .logo {
+        display: initial;
+    }
+   
+    .resume-template h2 {
+        line-height: 1.4;
+        font-size: 24px;
+    }
+    button#template-btn {
+        width: 50%;
+    }
+    .logo img {
+        width: 50%;
+    }
+    .resume-template-image img {
+        width: 100%;
+    }
+    button.btn-more {
+        width: 50%;
+        margin-top: 8px;
+    }
+    
+    .template-center h2 {
+        font-size: 20px;
+      
+    }
+    .login-template img {
+      margin-left: 0px;
+      width: 100%;
+      margin-top: 18px;
+  }
+}

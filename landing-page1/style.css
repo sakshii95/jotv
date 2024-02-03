@@ -106,7 +106,7 @@ i.fa-brands.fa-twitter{
     width: 36%;
 }
 .section-logo img {
-    width: 40%;
+    width: 35%;
 }
 
 
@@ -585,7 +585,7 @@ button#sub-btn {
 
 
 .sidebar {
-    height: 50%;
+    height: 70%;
     width: 0;
     position: fixed;
     z-index: 1;
