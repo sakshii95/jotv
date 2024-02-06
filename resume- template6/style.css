@@ -458,6 +458,10 @@ i.fa-brands.fa-twitter {
         display: flex;
      
     }
+    .resume-template h2 {
+        font-size: 45px;
+        font-weight: 600;
+    }
 
 }
 
