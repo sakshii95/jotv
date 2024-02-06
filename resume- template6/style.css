@@ -80,8 +80,8 @@ button#template-btn {
 }
 .resume-template p {
     margin-top: 22px;
-    font-size: 19px;
-    font-family: monospace;
+    font-size: 20px;
+    font-family: sans-serif;
 }
 .resume-template-image img {
     width: 70%;
@@ -502,7 +502,7 @@ i.fa-brands.fa-twitter {
   
 }
 .navbar-links a {
-    font-family: monospace;
+    font-family: sans-serif;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;

@@ -23,11 +23,8 @@
     }
     
     .text-get img {
-        width: 100%;
+        width: 75%;
     }
-   
-  
-     
         .resume-template h2 a {
             line-height: 1.3;
             font-weight: 600;
@@ -50,7 +47,7 @@
             border: none;
             color: white;
             background-color: blue;
-            margin-top: 19px;
+            margin-top: 36px;
 
         }
       
@@ -58,7 +55,7 @@
             line-height: 1.2;
             font-weight: 600;
             word-spacing: initial;
-            font-size: 35px;
+            font-size: 45px;
             color: blue;
         }
         .text-get h3 a {
@@ -130,14 +127,14 @@
         .text-get p {
             line-height: 1.5;
             color: #3e3e3e;
-            font-size: 15px;
-            margin-top: 16px;
+            font-size: 21px;
+            margin-top: 24px;
         }
         .text-get h2 {
             font-family: sans-serif;
             line-height: 1.4;
             font-weight: 600;
-            font-size: 26px;
+            font-size: 36px;
         }
         button#template-btn {
             border-radius: 19px;
@@ -346,14 +343,12 @@
             font-size: 16px;
         }
         
-       
         .frame-page {
             border-radius: 10px;
             background-color: #fbfbfb;
             padding: 4px 33px;
         }
       
-        
         .container-opportunity {
             border-radius: 11px;
             width: 70%;
@@ -362,8 +357,9 @@
             display: table;
             margin: auto;
             padding: 20px;
+            margin-top: 45px;
+            margin-bottom: 38px;
         }
-        
          .crafting-text h2 {
             margin-bottom: -13px;
             font-family: sans-serif;
@@ -487,7 +483,7 @@
   
 }
 .navbar-links a {
-    font-family: monospace;
+    font-family: sans-serif;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;

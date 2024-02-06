@@ -1,7 +1,7 @@
 .homepage {
     margin: auto;
     overflow: hidden;
-    max-width: 1200px;
+    max-width: 1500px;
     display: table;
 }
 
@@ -13,7 +13,7 @@
     line-height: 1.3;
     font-weight: 600;
     color: black;
-    font-size: 55px;
+    font-size: 60px;
     font-family: sans-serif;
     text-decoration: none;
 }
@@ -35,13 +35,13 @@ button#template-btn {
     margin-top: 19px;
 }
 .resume-template-image img {
-    width: 70%;
+    width: 60%;
 }
 .video-profile-box img {
     width: 100%;
 }
 .details-templates img {
-    width: 100%;
+    width: 70%;
 }
 .resume-template img {
     margin-bottom: 10px;
@@ -52,7 +52,7 @@ button#template-btn {
     padding: 15px;
 }
 .accesss-resume h3 a {
-    font-size: 15px;
+    font-size: 20px;
     color: black;
     font-family: sans-serif;
     margin-left: 9px;
@@ -106,7 +106,7 @@ button#start-btn {
     color: white;
     background-color: blue;
     margin-top: 19px;
-    margin-left: 196px;
+    margin-left: 260px;
 }
 .text-get p {
     color: gray;
@@ -188,7 +188,7 @@ svg {
     margin-left: 12px;
 }
 .play-store img {
-    width: 40%;
+    width: 35%;
 }
 i.fa-brands.fa-facebook {
     padding: 7px;
@@ -220,7 +220,7 @@ i.fa-brands.fa-twitter{
     margin-bottom: 20px;
 }
 .section-logo img {
-    width: 42%;
+    width: 40%;
     margin-top: 10px;
     margin-bottom: 19px;
 }
@@ -310,7 +310,7 @@ i.fa-brands.fa-twitter{
   
 }
 .navbar-links a {
-    font-family: monospace;
+    font-family: sans-serif;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
@@ -392,7 +392,9 @@ button.btn-login {
         width: 100%;
         background-color: #333;
     }
-
+    .details-templates img {
+        width: 100%;
+    }
     .navbar-links.show {
         display: flex;
     }

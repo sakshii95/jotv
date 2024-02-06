@@ -1,7 +1,7 @@
 .homepage {
     margin: auto;
     overflow: hidden;
-    max-width: 1200px;
+    max-width: 1500px;
     display: table;
 }
 
@@ -18,7 +18,7 @@
 
 .container-fluid.access {
   text-align: center;
-  height: 388px;
+  height: 445px;
   background-size: cover;
   background-image: url("Rectangle 1.png");
   color: white;
@@ -68,7 +68,7 @@ ul.list-resume li a {
   margin-left: -37px;
 }
 .company-resume h3 {
-  font-size: 19px;
+  font-size: 22px;
   margin-left: 2px;
   font-weight: 600;
 }
@@ -78,6 +78,7 @@ ul.list-resume li a {
     color: white;
     padding: 6px;
     background-color: #0479dd;
+    margin-top: 25px;
   }
  
   
@@ -109,8 +110,14 @@ ul.list-resume li a {
   font-weight: 600;
 }
 .navbar-logo img {
-  width: 100%;
- 
+  width: 50%;
+}
+.navbar-links a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 21px;
+  color: white;
+  margin-left: 17px;
 }
 
 .navbar-links {
@@ -126,13 +133,6 @@ ul.list-resume li a {
   margin-right: 20px;
 }
 
-.navbar-links a {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 21px;
-  color: white;
-}
-
 .navbar-toggle-btn {
   cursor: pointer;
   border: none;
@@ -142,8 +142,7 @@ ul.list-resume li a {
 }
 
 .sidebar {
-  height:100%;
-  width: 95%;
+  height:70%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -152,6 +151,8 @@ ul.list-resume li a {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  display: none;
+ 
 }
 .sidebar a {
   padding: 15px 25px;
@@ -177,6 +178,7 @@ ul.list-resume li a {
   margin-left: 50px;
   left: -46px;
   color: black;
+
 }
 .main-content {
   transition: margin-left 0.5s;
@@ -260,21 +262,31 @@ i.fa-solid.fa-star {
   background-color: white;
   border-top: 3px solid green;
 }
-ul.list-sys li {
-  font-size: 16px;
-  margin-top: 12px;
-  list-style-type: none;  
+.frame-system {
+  height: 680px;
 }
+
 ul.list-sys li a {
   font-size: 17px;
   font-family: sans-serif;
   color: #504f4f;
-  margin-left: 16px;
   text-decoration: none;
+}
+ul.list-sys li {
+  font-family: sans-serif;
+  margin-left: 14px;
+  font-size: 18px;
+  margin-top: 19px;
+  list-style-type: none;
+}
+.letter {
+  align-items: center;
+  display: flex;
+
 }
 button#start-btn {
   border-radius: 6px;
-  width: 91%;
+  width: 90%;
   padding: 8px;
   border: none;
   font-weight: 600;
@@ -288,10 +300,10 @@ button#start-btn {
   margin-top: 37px; 
 }
 .get-start-box2 {
-    margin-top: 149px;
+    margin-top: 174px;
 }
 .get-start-box1 {
-    margin-top: 263px;
+    margin-top:330px;
 }
 .text-image img {
   width: 85%;
@@ -306,7 +318,7 @@ button#start-btn {
 
 .text-students {
   margin-bottom: 36px;
-  margin-top: 61px;
+  margin-top: 112px;
   text-align: center;
 }
 
@@ -385,6 +397,7 @@ button#more-test {
   line-height: 1.4;
   font-size: 20px;
   margin-top: -4px;
+
 }
 .testimals h2 {
   margin-top: 70px;
@@ -412,7 +425,7 @@ button#more-test {
   margin-left: 11px;
 }
 .text-job h2 {
-  font-size: 30px;
+  font-size: 50px;
   font-family: sans-serif;
 }
 .text-job h3 {
@@ -431,7 +444,10 @@ button#try-search{
   border-radius: 21px;
   margin-top: 41px;
 }
-
+video {
+  width: 100%;
+  margin-top: 45px;
+}
 
 
 
@@ -459,9 +475,7 @@ button#try-search{
 
 @media screen and (max-width: 768px) {
 
-  video {
-    width: 100%;
-}
+ 
 
   .text-job h3 {
     font-size: 16px;
@@ -510,6 +524,12 @@ button#try-search{
   padding: 0px;
 }
 .text-job img {
+  width: 100%;
+}
+.sidebar { 
+  display: block;
+}
+.navbar-logo img {
   width: 100%;
 }
 }
